@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ipass-1704102.iml" filepath="$PROJECT_DIR$/ipass-1704102.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webappRunnerSample.iml" filepath="$PROJECT_DIR$/webappRunnerSample.iml" />
     </modules>
   </component>
 </project>
