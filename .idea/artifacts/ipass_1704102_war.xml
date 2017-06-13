@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ipass-1704102:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="webappRunnerSample.war">
+      <element id="artifact" artifact-name="ipass-1704102:war exploded" />
+    </root>
+  </artifact>
+</component>
