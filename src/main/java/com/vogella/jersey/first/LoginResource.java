@@ -1,11 +1,9 @@
 package com.vogella.jersey.first;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import com.vogella.jersey.first.Model.User;
 import com.vogella.jersey.first.database.LoginDatabase;
 
 import javax.json.Json;
-import javax.json.JsonArray;
 import javax.json.JsonArrayBuilder;
 import javax.json.JsonObjectBuilder;
 import javax.ws.rs.*;

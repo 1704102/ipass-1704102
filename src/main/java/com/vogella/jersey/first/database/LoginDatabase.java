@@ -1,7 +1,6 @@
 package com.vogella.jersey.first.database;
 
 import com.vogella.jersey.first.Model.User;
-import com.vogella.jersey.first.database.DatabaseHelper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
