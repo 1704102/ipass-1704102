@@ -21,6 +21,11 @@
         $.get("https://ipass-1704102.herokuapp.com/rest/login/" + $("#username").innerHTML + "/" + $("#password").innerHTML, function (data) {
             console.log(data);
             console.log("data = " + data);
+            if(data == null){
+                console.log("error")
+            }else{
+                console.log("succes")
+            }
         });
     }
 
