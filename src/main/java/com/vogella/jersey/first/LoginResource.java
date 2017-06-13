@@ -1,5 +1,13 @@
 package com.vogella.jersey.first;
 
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
+import com.vogella.jersey.first.Model.User;
+import com.vogella.jersey.first.database.LoginDatabase;
+
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
+import javax.json.JsonObjectBuilder;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
@@ -8,9 +16,26 @@ import javax.ws.rs.core.MediaType;
  */
 @Path("hello")
 public class LoginResource {
-        @GET
-        @Produces(MediaType.TEXT_PLAIN)
-        public String getOrders()  {
-            return "hi";
+    @POST
+    @Path("/{param1}/{param2}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String Login(@PathParam("param1") String username, @PathParam("param2") String password) {
+        JsonArrayBuilder jab = Json.createArrayBuilder();
+        LoginDatabase dat = new LoginDatabase();
+        User user = dat.checkLogin(username, password);
+        JsonObjectBuilder job = Json.createObjectBuilder();
+        job.add("username", user.getUsername());
+        job.add("voornaam", user.getVoornaam());
+        job.add("achternaam", user.getAchternaam());
+        job.add("functie", user.getFunctie());
+        job.add("geboortedatum", user.getGeboorteDatum());
+        job.add("email", user.getEmail());
+        job.add("adres", user.getAdres());
+        job.add("aangenomen", user.getAangenomen());
+
+        jab.add(job);
+
+        return jab.toString();
+
     }
 }
