@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d8dbf46-b3b4-4e53-bb48-701f0bb2cd8d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/LoginResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/LoginResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/LoginDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/LoginDatabase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="357">
+              <caret line="17" column="119" lean-forward="false" selection-start-line="17" selection-start-column="119" selection-end-line="17" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -58,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginResource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/LoginResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -132,9 +131,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/ReserveringDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/Model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/UserDatabase.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/LoginDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/LoginResource.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -798,7 +797,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497369953411</updated>
-      <workItem from="1497369956637" duration="5364000" />
+      <workItem from="1497369956637" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary=" - deploy heroku server">
       <created>1497370027078</created>
@@ -933,19 +932,34 @@
       <option name="project" value="LOCAL" />
       <updated>1497377764415</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=" - fixed import error">
+      <created>1497377811560</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1497377811560</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Deploy">
+      <created>1497377822048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1497377822048</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5364000" />
+    <option name="totallyTimeSpent" value="5507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -989,6 +1003,7 @@
     <MESSAGE value=" - test restless service 2" />
     <MESSAGE value=" - added databaseHelper&#10; - added LoginDatabase&#10; - added ReserveringDatabase&#10; - added model User&#10; - added LoginResource" />
     <MESSAGE value=" - added loginsupport" />
+    <MESSAGE value=" - fixed import error" />
     <MESSAGE value="Deploy" />
     <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
@@ -1092,14 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/LoginDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1112,6 +1119,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="119" lean-forward="false" selection-start-line="17" selection-start-column="119" selection-end-line="17" selection-end-column="119" />
           <folding />
         </state>
       </provider>
