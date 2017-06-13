@@ -18,7 +18,7 @@
 </div>
 <script>
     function login() {
-        $.get("https://ipass-1704102.herokuapp.com/rest/login/" + $("#username").innerHTML + "/" + $("#password").innerHTML, function (data) {
+        $.get("https://ipass-1704102.herokuapp.com/rest/login/" + $("#username").text + "/" + $("#password").text, function (data) {
             console.log(data);
         });
     }
