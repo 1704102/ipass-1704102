@@ -13,11 +13,16 @@
         <div id="usernameBlock"><input type="text" id="username" placeholder="username"></input></div>
         <div id="passwordBlock"><input type="password" id="password" placeholder="username"></input></div>
     </div>
+
+    <input type="button" onclick="login()">
 </div>
 <script>
-    $.get("https://ipass-1704102.herokuapp.com/rest/login/" + $("#username").innerHTML + "/" + $("#password").innerHTML, function (data) {
-        console.log(data);
-    });
+    function login() {
+        $.get("https://ipass-1704102.herokuapp.com/rest/login/" + $("#username").innerHTML + "/" + $("#password").innerHTML, function (data) {
+            console.log(data);
+        });
+    }
+
 </script>
 
 
