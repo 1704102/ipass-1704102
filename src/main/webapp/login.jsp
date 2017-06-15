@@ -32,7 +32,7 @@
 <script>
     function login() {
         console.log("start");
-        $.get("http://ipass-1704102.herokuapp.com/rest/login/" + $("#username").val() + "/" + $("#password").val(), function (data) {
+        $.get("https://ipass-1704102.herokuapp.com/rest/login/" + $("#username").val() + "/" + $("#password").val(), function (data) {
             if(data == null){
                 $("#error").css("display", "block")
             }else{
