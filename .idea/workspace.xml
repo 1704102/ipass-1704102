@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -34,6 +34,16 @@
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Workerhome.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Workerhome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/LoginDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vogella/jersey/first/database/UserDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Workerhome.jsp" />
       </list>
     </option>
   </component>
@@ -805,7 +816,7 @@
       <workItem from="1497369956637" duration="5645000" />
       <workItem from="1497435436912" duration="620000" />
       <workItem from="1497513867320" duration="9000" />
-      <workItem from="1497537279770" duration="377000" />
+      <workItem from="1497537279770" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary=" - deploy heroku server">
       <created>1497370027078</created>
@@ -989,11 +1000,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497537530972</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=" - added login.jsp">
+      <created>1497537666395</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1497537666395</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6871000" />
+    <option name="totallyTimeSpent" value="6906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1052,7 +1070,8 @@
     <MESSAGE value=" - fixed innerhtml" />
     <MESSAGE value="Deploy" />
     <MESSAGE value=" - removed UserDatabase" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - removed UserDatabase" />
+    <MESSAGE value=" - added login.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - added login.jsp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1063,14 +1082,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -1451,6 +1462,14 @@
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Workerhome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
