@@ -20,6 +20,7 @@ public class LoginResource {
     public String Login(@PathParam("param1") String username, @PathParam("param2") String password) {
         JsonArrayBuilder jab = Json.createArrayBuilder();
         LoginDatabase dat = new LoginDatabase();
+        System.out.println("start");
         User user = dat.checkLogin(username, password);
         JsonObjectBuilder job = Json.createObjectBuilder();
         job.add("username", user.getUsername());
