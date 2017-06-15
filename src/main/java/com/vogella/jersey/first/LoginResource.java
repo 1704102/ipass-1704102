@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
  */
 @Path("login")
 public class LoginResource {
-    @POST
+    @GET
     @Path("/{param1}/{param2}")
     @Produces(MediaType.APPLICATION_JSON)
     public String Login(@PathParam("param1") String username, @PathParam("param2") String password) {
