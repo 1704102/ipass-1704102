@@ -17,6 +17,7 @@ public class LoginDatabase extends DatabaseHelper {
             connect();
             ResultSet s = select("select * from werknemers");
             User user;
+            System.out.println("start");
             try {
                 while (s.next()){
                     if (username.equals(s.getString("username"))){
