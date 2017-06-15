@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 /**
  * Created by marti on 13-6-2017.
  */
-@Path("hello")
+@Path("login")
 public class LoginResource {
     @POST
     @Path("/{param1}/{param2}")

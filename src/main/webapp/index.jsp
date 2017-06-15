@@ -4,9 +4,8 @@
 </head>
 <body>
 <div class="header">
-
-    <div id="Home" onclick="changePage('index.jsp')">Home</div>
-    <div id="Reserveren"onclick="changePage('reserveren.jsp')">Reserveren</div>
+    <div><a href="index.jsp">home</a> </div>
+    <div><a href="login.jsp">login</a> </div>
 
 </div>
 
