@@ -28,6 +28,12 @@
             <artifactId>javax.json</artifactId>
             <version>1.0.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.thetransactioncompany</groupId>
+            <artifactId>cors-filter</artifactId>
+            <version>1.7</version>
+        </dependency>
     </dependencies>
 
     <build>
